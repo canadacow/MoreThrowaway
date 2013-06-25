@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05ADB137177A24F400321FFD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05ADB136177A24F400321FFD /* UIKit.framework */; };
+		05ADB139177A24F400321FFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05ADB138177A24F400321FFD /* Foundation.framework */; };
+		05ADB13B177A24F400321FFD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05ADB13A177A24F400321FFD /* CoreGraphics.framework */; };
+		05ADB141177A24F500321FFD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 05ADB13F177A24F500321FFD /* InfoPlist.strings */; };
+		05ADB143177A24F500321FFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 05ADB142177A24F500321FFD /* main.m */; };
+		05ADB147177A24F500321FFD /* BTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 05ADB146177A24F500321FFD /* BTAppDelegate.m */; };
+		05ADB149177A24F500321FFD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 05ADB148177A24F500321FFD /* Default.png */; };
+		05ADB14B177A24F500321FFD /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05ADB14A177A24F500321FFD /* Default@2x.png */; };
+		05ADB14D177A24F500321FFD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05ADB14C177A24F500321FFD /* Default-568h@2x.png */; };
+		05ADB150177A24F500321FFD /* BTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05ADB14F177A24F500321FFD /* BTViewController.m */; };
+		05ADB153177A24F500321FFD /* BTViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05ADB151177A24F500321FFD /* BTViewController_iPhone.xib */; };
+		05ADB156177A24F500321FFD /* BTViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05ADB154177A24F500321FFD /* BTViewController_iPad.xib */; };
+		05F3D672177A256A001D74FD /* goals.html in Resources */ = {isa = PBXBuildFile; fileRef = 05F3D671177A256A001D74FD /* goals.html */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05ADB133177A24F400321FFD /* MoreThrowaway.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoreThrowaway.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05ADB136177A24F400321FFD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		05ADB138177A24F400321FFD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		05ADB13A177A24F400321FFD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		05ADB13E177A24F500321FFD /* MoreThrowaway-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MoreThrowaway-Info.plist"; sourceTree = "<group>"; };
+		05ADB140177A24F500321FFD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		05ADB142177A24F500321FFD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		05ADB144177A24F500321FFD /* MoreThrowaway-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MoreThrowaway-Prefix.pch"; sourceTree = "<group>"; };
+		05ADB145177A24F500321FFD /* BTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTAppDelegate.h; sourceTree = "<group>"; };
+		05ADB146177A24F500321FFD /* BTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTAppDelegate.m; sourceTree = "<group>"; };
+		05ADB148177A24F500321FFD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		05ADB14A177A24F500321FFD /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		05ADB14C177A24F500321FFD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		05ADB14E177A24F500321FFD /* BTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTViewController.h; sourceTree = "<group>"; };
+		05ADB14F177A24F500321FFD /* BTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTViewController.m; sourceTree = "<group>"; };
+		05ADB152177A24F500321FFD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BTViewController_iPhone.xib; sourceTree = "<group>"; };
+		05ADB155177A24F500321FFD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BTViewController_iPad.xib; sourceTree = "<group>"; };
+		05F3D671177A256A001D74FD /* goals.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = goals.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05ADB130177A24F400321FFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05ADB137177A24F400321FFD /* UIKit.framework in Frameworks */,
+				05ADB139177A24F400321FFD /* Foundation.framework in Frameworks */,
+				05ADB13B177A24F400321FFD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05ADB12A177A24F400321FFD = {
+			isa = PBXGroup;
+			children = (
+				05ADB13C177A24F500321FFD /* MoreThrowaway */,
+				05ADB135177A24F400321FFD /* Frameworks */,
+				05ADB134177A24F400321FFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05ADB134177A24F400321FFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05ADB133177A24F400321FFD /* MoreThrowaway.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05ADB135177A24F400321FFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05ADB136177A24F400321FFD /* UIKit.framework */,
+				05ADB138177A24F400321FFD /* Foundation.framework */,
+				05ADB13A177A24F400321FFD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		05ADB13C177A24F500321FFD /* MoreThrowaway */ = {
+			isa = PBXGroup;
+			children = (
+				05ADB145177A24F500321FFD /* BTAppDelegate.h */,
+				05ADB146177A24F500321FFD /* BTAppDelegate.m */,
+				05ADB14E177A24F500321FFD /* BTViewController.h */,
+				05ADB14F177A24F500321FFD /* BTViewController.m */,
+				05ADB151177A24F500321FFD /* BTViewController_iPhone.xib */,
+				05ADB154177A24F500321FFD /* BTViewController_iPad.xib */,
+				05ADB13D177A24F500321FFD /* Supporting Files */,
+			);
+			path = MoreThrowaway;
+			sourceTree = "<group>";
+		};
+		05ADB13D177A24F500321FFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				05F3D671177A256A001D74FD /* goals.html */,
+				05ADB13E177A24F500321FFD /* MoreThrowaway-Info.plist */,
+				05ADB13F177A24F500321FFD /* InfoPlist.strings */,
+				05ADB142177A24F500321FFD /* main.m */,
+				05ADB144177A24F500321FFD /* MoreThrowaway-Prefix.pch */,
+				05ADB148177A24F500321FFD /* Default.png */,
+				05ADB14A177A24F500321FFD /* Default@2x.png */,
+				05ADB14C177A24F500321FFD /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05ADB132177A24F400321FFD /* MoreThrowaway */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05ADB159177A24F500321FFD /* Build configuration list for PBXNativeTarget "MoreThrowaway" */;
+			buildPhases = (
+				05ADB12F177A24F400321FFD /* Sources */,
+				05ADB130177A24F400321FFD /* Frameworks */,
+				05ADB131177A24F400321FFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoreThrowaway;
+			productName = MoreThrowaway;
+			productReference = 05ADB133177A24F400321FFD /* MoreThrowaway.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05ADB12B177A24F400321FFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BT;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Avatron;
+			};
+			buildConfigurationList = 05ADB12E177A24F400321FFD /* Build configuration list for PBXProject "MoreThrowaway" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 05ADB12A177A24F400321FFD;
+			productRefGroup = 05ADB134177A24F400321FFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05ADB132177A24F400321FFD /* MoreThrowaway */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05ADB131177A24F400321FFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05ADB141177A24F500321FFD /* InfoPlist.strings in Resources */,
+				05ADB149177A24F500321FFD /* Default.png in Resources */,
+				05ADB14B177A24F500321FFD /* Default@2x.png in Resources */,
+				05ADB14D177A24F500321FFD /* Default-568h@2x.png in Resources */,
+				05ADB153177A24F500321FFD /* BTViewController_iPhone.xib in Resources */,
+				05ADB156177A24F500321FFD /* BTViewController_iPad.xib in Resources */,
+				05F3D672177A256A001D74FD /* goals.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05ADB12F177A24F400321FFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05ADB143177A24F500321FFD /* main.m in Sources */,
+				05ADB147177A24F500321FFD /* BTAppDelegate.m in Sources */,
+				05ADB150177A24F500321FFD /* BTViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		05ADB13F177A24F500321FFD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05ADB140177A24F500321FFD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		05ADB151177A24F500321FFD /* BTViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05ADB152177A24F500321FFD /* en */,
+			);
+			name = BTViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		05ADB154177A24F500321FFD /* BTViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05ADB155177A24F500321FFD /* en */,
+			);
+			name = BTViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		05ADB157177A24F500321FFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		05ADB158177A24F500321FFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05ADB15A177A24F500321FFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MoreThrowaway/MoreThrowaway-Prefix.pch";
+				INFOPLIST_FILE = "MoreThrowaway/MoreThrowaway-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		05ADB15B177A24F500321FFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MoreThrowaway/MoreThrowaway-Prefix.pch";
+				INFOPLIST_FILE = "MoreThrowaway/MoreThrowaway-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05ADB12E177A24F400321FFD /* Build configuration list for PBXProject "MoreThrowaway" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05ADB157177A24F500321FFD /* Debug */,
+				05ADB158177A24F500321FFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05ADB159177A24F500321FFD /* Build configuration list for PBXNativeTarget "MoreThrowaway" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05ADB15A177A24F500321FFD /* Debug */,
+				05ADB15B177A24F500321FFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05ADB12B177A24F400321FFD /* Project object */;
+}
